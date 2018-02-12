@@ -28,7 +28,7 @@ def position_taken?(board, index)
   end
 end
 
-def move(board, input, char = "X")
+def move(board, input, current_player(board))
   board[input] = char
   return board
 end
