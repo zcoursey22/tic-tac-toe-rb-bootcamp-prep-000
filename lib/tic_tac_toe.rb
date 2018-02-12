@@ -28,8 +28,8 @@ def position_taken?(board, index)
   end
 end
 
-def move(board, input, current_player(board))
-  board[input] = char
+def move(board, input, char)
+  board[input] = current_player(board)
   return board
 end
 
